@@ -12,6 +12,6 @@ btn.addEventListener('click', () => {
         dispcity.innerHTML = city;
         //console.log(data[val]['Map Status'])
     }).catch(()=>{
-        alert('Wrong Pin Code!')
+        alert("Either Given Pin Code is wrong or we don't have required data for that!")
     })
 })
